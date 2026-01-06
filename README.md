@@ -24,6 +24,7 @@ cd x-checker
 2. Install Dependencies:
 
 pip install -r requirements.txt
+
 playwright install chromium
 
 
