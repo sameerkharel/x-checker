@@ -3,25 +3,25 @@ A high-performance, asynchronous tool for checking X.com username availability a
 
 🚀 Key Features
 
-Asynchronous Engine: Built on Playwright for fast, multi-threaded browser automation.
+1. Asynchronous Engine: Built on Playwright for fast, multi-threaded browser automation.
 
-Proxy Rotation: Support for HTTP/SOCKS5 proxies to bypass IP-based rate limiting.
+2. Proxy Rotation: Support for HTTP/SOCKS5 proxies to bypass IP-based rate limiting.
 
-Bulk Processing: Check thousands of handles from a text file.
+3. Bulk Processing: Check thousands of handles from a text file.
 
-Auto-Export: Automatically saves available handles to available_found.txt.
+4. Auto-Export: Automatically saves available handles to available_found.txt.
 
-Stealth Mode: Randomized User-Agents and human-like interaction delays.
+5. Stealth Mode: Randomized User-Agents and human-like interaction delays.
 
 🛠️ Installation
 
-Clone the repo:
+1. Clone the repo:
 
 git clone [https://github.com/yourusername/x-checker.git](https://github.com/yourusername/x-checker.git)
 cd x-checker
 
 
-Install Dependencies:
+2. Install Dependencies:
 
 pip install -r requirements.txt
 playwright install chromium
@@ -29,18 +29,18 @@ playwright install chromium
 
 📖 Usage
 
-Bulk Check
+1. Bulk Check
 
-Place your usernames in usernames.txt (one per line) and run:
+2. Place your usernames in usernames.txt (one per line) and run:
 
-python checker.py --file usernames.txt --workers 5
+3. python checker.py --file usernames.txt --workers 5
 
 
 With Proxies
 
-Add proxies to proxies.txt (http://user:pass@host:port) and run:
+1. Add proxies to proxies.txt (http://user:pass@host:port) and run:
 
-python checker.py --file usernames.txt --proxy proxies.txt
+2. python checker.py --file usernames.txt --proxy proxies.txt
 
 
 ⚠️ Disclaimer
